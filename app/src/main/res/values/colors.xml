@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="plone">#04f5ff</color>
+    <color name="pltwo">#e90052</color>
+    <color name="plthree">#ffffff</color>
+    <color name="plfour">#00ff85</color>
+    <color name="plfive">#38003c</color>
+
+
+</resources>

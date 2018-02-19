@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FootballStats</string>
+    <string name="home">Home</string>
+    <string name="away">Away</string>
+    <string name="attempts">Attempts</string>
+    <string name="goal">Goals</string>
+    <string name="offside">Offsides</string>
+    <string name="yellow">Yellow card</string>
+    <string name="red">Red card</string>
+</resources>
