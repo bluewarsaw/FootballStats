@@ -12,8 +12,8 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/legia"
-        android:scaleType="centerCrop"/>
+        android:scaleType="centerCrop"
+        android:src="@drawable/legia"/>
 
 
     <LinearLayout
@@ -54,8 +54,8 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="addGoalHome"
                 android:background="@color/plone"
+                android:onClick="addGoalHome"
                 android:text="@string/goal" />
 
 
@@ -69,21 +69,21 @@
                     android:layout_marginBottom="8dp"
                     android:layout_marginLeft="22dp"
                     android:layout_marginRight="22dp"
-                    android:onClick="addHomeAtt"
-                    android:text="@string/attempts"
+                    android:layout_weight="1"
                     android:background="@color/pltwo"
-                    android:layout_weight="1"/>
+                    android:onClick="addHomeAtt"
+                    android:text="@string/attempts"/>
 
                 <TextView
                     android:id="@+id/HomeAtt"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_weight="4"
                     android:fontFamily="sans-serif-light"
                     android:paddingBottom="24dp"
                     android:text="0"
                     android:textColor="#fff"
-                    android:textSize="30sp"
-                    android:layout_weight="4" />
+                    android:textSize="30sp" />
 
             </LinearLayout>
 
@@ -98,23 +98,23 @@
                     android:layout_marginBottom="8dp"
                     android:layout_marginLeft="22dp"
                     android:layout_marginRight="22dp"
-                    android:onClick="addHomeOff"
-                    android:textColor="@color/pltwo"
-                    android:text="@string/offside"
-                    android:background="@color/plthree"
                     android:layout_weight="2"
+                    android:background="@color/plthree"
+                    android:onClick="addHomeOff"
+                    android:text="@string/offside"
+                    android:textColor="@color/pltwo"
                     />
 
                 <TextView
                     android:id="@+id/HomeOff"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_weight="7"
                     android:fontFamily="sans-serif-light"
                     android:paddingBottom="24dp"
                     android:text="0"
                     android:textColor="#fff"
-                    android:textSize="30sp"
-                    android:layout_weight="7"/>
+                    android:textSize="30sp"/>
 
             </LinearLayout>
 
@@ -125,9 +125,9 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="22dp"
                 android:layout_marginRight="22dp"
+                android:background="@color/plfour"
                 android:onClick="resetHome"
-                android:text="Reset Home"
-                android:background="@color/plfour" />
+                android:text="Reset Home" />
 
 
     </LinearLayout>
@@ -171,8 +171,8 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="addAwayGoal"
                 android:background="@color/plone"
+                android:onClick="addAwayGoal"
                 android:text="@string/goal"
                 android:textColor="#000"/>
 
@@ -187,22 +187,22 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="22dp"
                 android:layout_marginRight="22dp"
+                android:layout_weight="1"
+                android:background="@color/pltwo"
                 android:onClick="addAwayAtt"
                 android:text="@string/attempts"
-                android:background="@color/pltwo"
-                android:layout_weight="1"
                 android:textColor="#000"/>
 
                 <TextView
                     android:id="@+id/AwayAtt"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_weight="4"
                     android:fontFamily="sans-serif-light"
                     android:paddingBottom="24dp"
                     android:text="0"
                     android:textColor="#000000"
-                    android:textSize="30sp"
-                    android:layout_weight="4"/>
+                    android:textSize="30sp"/>
 
         </LinearLayout>
 
@@ -217,23 +217,23 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="22dp"
                 android:layout_marginRight="22dp"
-                android:onClick="addAwayOff"
-                android:textColor="#000"
-                android:text="@string/offside"
-                android:background="@color/plthree"
                 android:layout_weight="2"
+                android:background="@color/plthree"
+                android:onClick="addAwayOff"
+                android:text="@string/offside"
+                android:textColor="#000"
                 />
 
             <TextView
                 android:id="@+id/AwayOff"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_weight="7"
                 android:fontFamily="sans-serif-light"
                 android:paddingBottom="24dp"
                 android:text="0"
                 android:textColor="#000000"
-                android:textSize="30sp"
-                android:layout_weight="7"/>
+                android:textSize="30sp"/>
 
         </LinearLayout>
 
@@ -244,10 +244,10 @@
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="22dp"
                 android:layout_marginRight="22dp"
+                android:background="@color/plfour"
                 android:onClick="resetAway"
                 android:text="RESET AWAY"
-                android:textColor="#000"
-                android:background="@color/plfour" />
+                android:textColor="#000" />
 
         </LinearLayout>
     </LinearLayout>
@@ -260,10 +260,10 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/plfive"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="32dp"
+        android:background="@color/plfive"
         android:onClick="reset"
         android:text="Reset both" />
 </RelativeLayout>
