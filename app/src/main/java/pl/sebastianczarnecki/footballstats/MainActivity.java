@@ -9,15 +9,14 @@ import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
 
-    int goalA=0;
-    int goalB=0;
-    int asA=0;
-    int asB=0;
-    int ofA=0;
-    int ofB=0;
-    int cardA=0;
-    int cardB=0;
-
+    int goalA;
+    int goalB;
+    int asA;
+    int asB;
+    int ofA;
+    int ofB;
+    int cardA;
+    int cardB;
 
 
     @Override
